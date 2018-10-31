@@ -1,18 +1,22 @@
 h1 {
-    padding-left: 10%;
+    padding-left: 4%;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .name {
     float: left;
-    margin-left: 20%;
+    margin-left: 465px;
     background-color:#4aaaa5;
     font-size: 2em;
     font-weight: bold;
-    justify-content: center;
-    height:86px;
+    height:58px;
     text-align: center;
     color: #ffffff;
+    padding-top: 22px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width:170px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 header {
@@ -35,19 +39,36 @@ header {
     Color: #4aaaa5;
 }
 
+#index-hr-top {
+    width: 92%;
+    margin: auto;
+    margin-bottom: 15px;
+    border-top: 3px solid #4aaaa5;
+}
+
 #index-img{
     float: left;
-    height:150px;
-    width: 150px;
+    height:160px;
+    width: 160px;
     padding-right: 15px;
-    padding-left: 95px;
+    padding-left: 38px;
 }
 p {
     color: #777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-left: 38px;
+    padding-right: 38px;
 }
 
 footer { 
     background-color: #666666;
     width: 100%;
+}
+
+.linkbar {
+    float: right;
+    margin: 0 auto;
+    padding-right: 485px;
+    padding-top:50px;
+    
 }
