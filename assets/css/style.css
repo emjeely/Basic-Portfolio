@@ -1,3 +1,7 @@
+body {
+    width:1000px;
+}
+
 h1 {
     padding-left: 4%;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -5,7 +9,8 @@ h1 {
 
 .name {
     float: left;
-    margin-left: 465px;
+    position: fixed;
+    right:1212px;
     background-color:#4aaaa5;
     font-size: 2em;
     font-weight: bold;
@@ -16,7 +21,7 @@ h1 {
     padding-right: 30px;
     padding-left: 30px;
     width:170px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;*/
 }
 
 header {
@@ -26,16 +31,20 @@ header {
     height: 80px;
     text-align: center;
     width: 100%;
+    position:fixed;
+    overflow: auto;
 
 }
 
 .w3-container {
+    position: relative;
+    bottom:-100px;
+    z-index: -100;
     background-color: #ffffff;
     border:solid;
     border-color: #dddddd;
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:50%;
     Color: #4aaaa5;
 }
 
@@ -62,38 +71,112 @@ p {
 
 footer { 
     background-color: #666666;
-    width: 100%;
-    padding-left:45%;
+    position: absolute; 
+    bottom: 0; left: 0; right: 0;
+    text-align:center;
+    clear: both;
 }
 
 
-.linkbar {
+nav {
     float: right;
     margin: 0 auto;
-    padding-right: 485px;
+    position: absolute;
+    right: 500px;
     padding-top:50px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-#hangman{
-    width: 260px;
-    height: 200px;
-    margin-left: 38px;
-    margin-right: 46px;
     
 }
 
-/*.text-h {
+a {
+    text-decoration: none;
+}
+
+
+
+.text-h {
     position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: 0;
-}*/
+    bottom: 20px;
+    width: 249.5px;
+    margin-left:25px;
+    padding: 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    
+}
+
+.portfolio-pics{
+    width: 260px;
+    height: 200px;
+    float:left;
+    position:relative;
+    left: 25px;
+    margin: 20px 0 25px; 
+}
+
+.even{
+    margin-right: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+label, input[type=text], input[type=email], textarea {
+    display: block;
+   width: 93%;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text], input[type=email], textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd
+}
+
+input[type=submit] {
+    padding: 10px 50px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin: 0 0 10px 40px;
+}
+
+textarea {
+    height:150px;
+}
+
+/*#top-portfolio{
+    position: relative;
+    float: left;
+
+}
+#hangman{
+    width: 260px;
+    height: 200px;
+    float:left;
+    position:relative;
+    left: 38px;
+
+}
+
 
 #rpggame {
     width: 260px;
     height: 200px;
+    float:left;
+    position: relative;
+    left:38px;
+
     
 }
 
@@ -124,6 +207,6 @@ footer {
     height: 200px;
     margin-left: 38px;
     margin-right: 46px;
-}
-}
+}*/
+
 
